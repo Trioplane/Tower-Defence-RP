@@ -20,8 +20,8 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     if (isVignette == 1) {
-        float dist = 1 - length(vertexPosition.xy) * 0.25;
-        float vig = smoothstep(0.5, 1.15, dist);
+        float dist = 1.9 - length(vertexPosition.xy);
+        float vig = smoothstep(0.2, 1, dist);
         color.a *= 1.0 - vig;
     }
 
