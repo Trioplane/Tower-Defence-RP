@@ -1,0 +1,164 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ssi1","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ssi2","uvlock": true,"y": 270}
+    ],
+    "facing=east,half=bottom,shape=inner_right": [
+      {"model": "minecraft:block/ssi0"},
+      {"model": "minecraft:block/ssi1"},
+      {"model": "minecraft:block/ssi2"}
+    ],
+    "facing=north,half=bottom,shape=inner_right": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ssi1","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ssi2","uvlock": true,"y": 270}
+    ],
+    "facing=east,half=bottom,shape=outer_left": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 270},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 270},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 270}
+    ],
+    "facing=east,half=bottom,shape=outer_right": [
+      {"model": "minecraft:block/sso0"},
+      {"model": "minecraft:block/sso1"},
+      {"model": "minecraft:block/sso2"}
+    ],
+    "facing=east,half=bottom,shape=straight": [
+      {"model": "minecraft:block/ss0"},
+      {"model": "minecraft:block/ss1"},
+      {"model": "minecraft:block/ss2"}
+    ],
+    "facing=south,half=bottom,shape=inner_left": [
+      {"model": "minecraft:block/ssi0"},
+      {"model": "minecraft:block/ssi1"},
+      {"model": "minecraft:block/ssi2"}
+    ],
+    "facing=south,half=bottom,shape=inner_right": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ssi1","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ssi2","uvlock": true,"y": 90}
+    ],
+    "facing=south,half=bottom,shape=outer_left": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 0},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 0},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 0}
+    ],
+    "facing=north,half=bottom,shape=outer_left": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 180},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 180},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 180}
+    ],
+    "facing=south,half=bottom,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 90},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 90},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 90}
+    ],
+    "facing=south,half=bottom,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ss1","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ss2","uvlock": true,"y": 90}
+    ],
+    "facing=north,half=bottom,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ss1","uvlock": true,"y": 270},
+      {"model": "minecraft:block/ss2","uvlock": true,"y": 270}
+    ],
+    "facing=south,half=top,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/ssi1","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/ssi2","uvlock": true,"x": 180,"y": 90}
+    ],
+    "facing=south,half=top,shape=inner_right": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ssi1","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ssi2","uvlock": true,"x": 180,"y": 180}
+    ],
+    "facing=west,half=bottom,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ssi1","uvlock": true,"y": 90},
+      {"model": "minecraft:block/ssi2","uvlock": true,"y": 90}
+    ],
+    "facing=west,half=bottom,shape=inner_right": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"y": 180},
+      {"model": "minecraft:block/ssi1","uvlock": true,"y": 180},
+      {"model": "minecraft:block/ssi2","uvlock": true,"y": 180}
+    ],
+    "facing=west,half=bottom,shape=outer_left": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 90},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 90},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 90}
+    ],
+    "facing=west,half=bottom,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"y": 180},
+      {"model": "minecraft:block/sso1","uvlock": true,"y": 180},
+      {"model": "minecraft:block/sso2","uvlock": true,"y": 180}
+    ],
+    "facing=west,half=bottom,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"y": 180},
+      {"model": "minecraft:block/ss1","uvlock": true,"y": 180},
+      {"model": "minecraft:block/ss2","uvlock": true,"y": 180}
+    ],
+    "facing=east,half=top,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/ssi1","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/ssi2","uvlock": true,"x": 180,"y": 0}
+    ],
+    "facing=west,half=top,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ssi1","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ssi2","uvlock": true,"x": 180,"y": 180}
+    ],
+    "facing=north,half=top,shape=inner_left": [
+      {"model": "minecraft:block/ssi0","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/ssi1","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/ssi2","uvlock": true,"x": 180,"y": 270}
+    ],
+    "facing=north,half=top,shape=outer_left": [
+      {"model": "minecraft:block/sso0","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/sso1","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/sso2","uvlock": true,"x": 180,"y": 90}
+    ],
+    "facing=south,half=top,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/sso1","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/sso2","uvlock": true,"x": 180,"y": 180}
+    ],
+    "facing=east,half=top,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/sso1","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/sso2","uvlock": true,"x": 180,"y": 90}
+    ],
+    "facing=west,half=top,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/sso1","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/sso2","uvlock": true,"x": 180,"y": 270}
+    ],
+    "facing=north,half=top,shape=outer_right": [
+      {"model": "minecraft:block/sso0","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/sso1","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/sso2","uvlock": true,"x": 180,"y": 0}
+    ],
+    "facing=west,half=top,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ss1","uvlock": true,"x": 180,"y": 180},
+      {"model": "minecraft:block/ss2","uvlock": true,"x": 180,"y": 180}
+    ],
+    "facing=east,half=top,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/ss1","uvlock": true,"x": 180,"y": 0},
+      {"model": "minecraft:block/ss2","uvlock": true,"x": 180,"y": 0}
+    ],
+    "facing=north,half=top,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/ss1","uvlock": true,"x": 180,"y": 270},
+      {"model": "minecraft:block/ss2","uvlock": true,"x": 180,"y": 270}
+    ],
+    "facing=south,half=top,shape=straight": [
+      {"model": "minecraft:block/ss0","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/ss1","uvlock": true,"x": 180,"y": 90},
+      {"model": "minecraft:block/ss2","uvlock": true,"x": 180,"y": 90}
+    ]
+  }
+}

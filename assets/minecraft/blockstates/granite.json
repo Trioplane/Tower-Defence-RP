@@ -1,7 +1,15 @@
 {
   "variants": {
-    "normal": [ 
-        { "model": "minecraft:block/granite/stoneMesch1", "weight": 5}, {"model": "minecraft:block/granite/stoneMesch2", "weight": 3}, {"model": "minecraft:block/granite/stoneMesch3", "weight": 4}
+    "": [
+      {
+        "model": "minecraft:block/stone0"
+      },
+      {
+        "model":"minecraft:block/stone1"
+      },
+      {
+        "model":"minecraft:block/stone2"
+      }
     ]
   }
 }

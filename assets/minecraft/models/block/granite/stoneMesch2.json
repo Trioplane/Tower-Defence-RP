@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-    "all": "minecraft:block/stoneMesch2"
-  }
-}
