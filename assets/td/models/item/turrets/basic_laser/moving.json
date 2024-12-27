@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "td:item/turrets/basic_laser/moving",
+		"particle": "td:item/turrets/basic_laser/moving"
+	},
+	"elements": [
+		{
+			"from": [6, 8, 6],
+			"to": [10, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 7]},
+			"faces": {
+				"north": {"uv": [7.5, 2.5, 9.5, 4.5], "texture": "#0"},
+				"east": {"uv": [7.5, 4.5, 9.5, 6.5], "texture": "#0"},
+				"south": {"uv": [5, 7.5, 7, 9.5], "texture": "#0"},
+				"west": {"uv": [7.5, 6.5, 9.5, 8.5], "texture": "#0"},
+				"up": {"uv": [9, 10.5, 7, 8.5], "texture": "#0"},
+				"down": {"uv": [11, 8.5, 9, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [10.5, 12.5, 10.5],
+			"to": [5.5, 7.5, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 2.5, 2.5, 5], "texture": "#0"},
+				"south": {"uv": [2.5, 0, 5, 2.5], "texture": "#0"},
+				"west": {"uv": [2.5, 2.5, 5, 5], "texture": "#0"},
+				"up": {"uv": [2.5, 7.5, 0, 5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 5, 2.5], "texture": "#0"}
+			}
+		}
+	]
+}
