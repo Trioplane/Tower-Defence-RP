@@ -12,14 +12,21 @@ uniform sampler2D Sampler2;
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
 uniform int FogShape;
-uniform vec2 ScreenSize;
 out float vertexDistance;
 out vec4 vertexColor;
+out vec4 vertexPosition;
 out vec2 texCoord0;
-out float isVignette;
+flat out int isVignette;
 
 vec3 newPosition = Position;
 float ASCENT_OFFSET = 2000.0;
+
+vec2[] corners = vec2[](
+  vec2(0.0, 1.0),
+  vec2(0.0, 0.0),
+  vec2(1.0, 0.0),
+  vec2(1.0, 1.0)
+);
 
 void main() {
     float id = floor((newPosition.y + 1000.0) / ASCENT_OFFSET);
@@ -29,18 +36,14 @@ void main() {
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     
     mat4 TransformMat = mat4(1.0);
-    if (id >= 0.999) {
-        if (Position.z == 2400) { vertexColor.a = 0; }
-        // Create a scale matrix to span the screen
-        vec2 screenScale = 2.0 / ScreenSize;
-        TransformMat = mat4(
-            50.0, 0.0, 0.0, 0.0,
-            0.0, 50.0, 0.0, 0.0,
-            0.0, 0.0, 1.0, 0.0,
-            (screenScale.x * 5) * 50.0, (screenScale.y - 0.0575) * 50.0, 0.0, 1.0
-        );
-    };
     
     texCoord0 = UV0;
-    gl_Position = TransformMat * ProjMat * ModelViewMat * vec4(newPosition, 1.0);
+    gl_Position = ProjMat * ModelViewMat * vec4(newPosition, 1.0);
+
+    if (id >= 0.999) {
+        if (Position.z == 2400) { vertexColor.a = 0; }
+        isVignette = 1;
+        vertexPosition = vec4(corners[gl_VertexID % 4] * 2. - 1., 0.0, 1.0);
+        gl_Position = vertexPosition;
+    };  
 }
