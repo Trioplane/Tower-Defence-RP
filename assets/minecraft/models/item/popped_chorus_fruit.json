@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/popped_chorus_fruit"
+    },
+    "overrides": [
+        { "model": "td:item/turrets/basic_laser/base", "predicate": { "custom_model_data": 10200 } },
+        { "model": "td:item/turrets/basic_laser/moving", "predicate": { "custom_model_data": 10201 } },
+        { "model": "td:item/turrets/basic_laser/projectile", "predicate": { "custom_model_data": 10202 } }
+    ]
+}
