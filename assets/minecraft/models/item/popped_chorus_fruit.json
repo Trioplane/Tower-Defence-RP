@@ -4,6 +4,10 @@
       "layer0": "minecraft:item/popped_chorus_fruit"
     },
     "overrides": [
+        { "model": "td:item/turrets/shooty/base", "predicate": { "custom_model_data": 10100 } },
+        { "model": "td:item/turrets/shooty/moving_ready", "predicate": { "custom_model_data": 10101 } },
+        { "model": "td:item/turrets/shooty/projectile", "predicate": { "custom_model_data": 10102 } },
+        { "model": "td:item/turrets/shooty/moving", "predicate": { "custom_model_data": 10103 } },
         { "model": "td:item/turrets/basic_laser/base", "predicate": { "custom_model_data": 10200 } },
         { "model": "td:item/turrets/basic_laser/moving", "predicate": { "custom_model_data": 10201 } },
         { "model": "td:item/turrets/basic_laser/projectile", "predicate": { "custom_model_data": 10202 } }
